@@ -25,10 +25,25 @@
         </a>
       </div>
       <p class="text-xs text-gray-400">
-        Jupiter is the leading Solana DEX aggregator (~$1.1B market cap).  
+        Jupiter (~$1.1B market cap) is Solana’s leading DEX aggregator.  
         Traders often face swap errors when liquidity routes are congested.  
-        Use the calculator to estimate real execution and adjust slippage tolerance.
+        Use the calculator to estimate execution and adjust slippage tolerance.
       </p>
+      <!-- FAQ schema.org -->
+      <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [{
+          "@type": "Question",
+          "name": "Why do Jupiter swaps fail?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Jupiter swaps fail when liquidity routes are congested or slippage tolerance is too low."
+          }
+        }]
+      }
+      </script>
     </div>
 
     <!-- Bloc pour Raydium (RAY) -->
@@ -41,9 +56,24 @@
         </a>
       </div>
       <p class="text-xs text-gray-400">
-        Raydium AMM (~$556M market cap) frequently shows slippage issues in thin pools.  
+        Raydium (~$556M market cap) frequently shows slippage issues in thin pools.  
         Increase tolerance to 3–5% or use the calculator to compute safe trade sizes.
       </p>
+      <!-- FAQ schema.org -->
+      <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [{
+          "@type": "Question",
+          "name": "Why is slippage high on Raydium?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Raydium pools often have thin liquidity, causing high slippage during swaps."
+          }
+        }]
+      }
+      </script>
     </div>
 
     <!-- Bloc pour Bonk (BONK) -->
@@ -60,8 +90,24 @@
         Many traders report failed buys due to hidden tax or thin liquidity.  
         Run the calculator to check minimum received and avoid execution reverts.
       </p>
+      <!-- FAQ schema.org -->
+      <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [{
+          "@type": "Question",
+          "name": "Why can't I buy Bonk?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bonk trades often fail due to hidden tax or insufficient liquidity in pools."
+          }
+        }]
+      }
+      </script>
     </div>
   </section>
 
 </body>
 </html>
+
